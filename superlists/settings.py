@@ -55,7 +55,7 @@ ROOT_URLCONF = 'superlists.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['blog/tempalates/'],
+        'DIRS': ['superlists/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
