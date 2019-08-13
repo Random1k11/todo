@@ -34,9 +34,6 @@ class NewVisitorsTest(unittest.TestCase):
         self.assertTrue(
             any(row.text == '1: Buy peacock feathers' for row in rows)
         )
-
-
-
         self.fail("Finish the test!")
 
 
